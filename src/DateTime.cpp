@@ -40,7 +40,7 @@ string DateTime::getCharDate(tm* date)
 	{
 		str += "0";
 	}
-	str += to_string(date->tm_mday) + " " + monthes[date->tm_mon] + " " + to_string(date->tm_year + 1900) + " " + week[date->tm_wday];
+	str += to_string(date->tm_mday) + " " + monthes[date->tm_mon] + " " + to_string(date->tm_year + 1900) + ", " + week[date->tm_wday];
 	return str;
 }
 

@@ -5,6 +5,7 @@
 
 int main()
 {
+
 	std::cout << "the cost would be - "<<calcCost() << std::endl;
 	return 0;
 }

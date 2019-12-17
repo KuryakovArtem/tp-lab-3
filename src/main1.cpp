@@ -5,6 +5,8 @@
 
 int main()
 {
+	Circle c(10.0);
+	calcDelta();
 	std::cout << "the space is - " << calcDelta() << std::endl;
 	return 0;
 }

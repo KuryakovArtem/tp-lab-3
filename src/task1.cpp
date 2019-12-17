@@ -11,7 +11,7 @@ double calcDelta()
 	earth.setFerence(ference);
 	double newRadius;
 	newRadius = earth.getRadius();
-	return newRadius - earthRadius;
+	return ((newRadius - earthRadius)*100000)/100000;
 }
 
 double calcCost()
